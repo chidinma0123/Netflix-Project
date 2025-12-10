@@ -1,0 +1,124 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url('Assets/img/netflixbackground.jpg');
+    
+    color: #fff;
+}
+
+/* NAVBAR */
+.navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 10;
+}
+
+.logo {
+    width: 150px;
+}
+
+.sign-in-btn {
+    background: #e50914;
+    color: #fff;
+    border: none;
+    padding: 7px 17px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* HERO SECTION */
+.hero {
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 30px;
+}
+
+/* Netflix Background with Gradient Overlay */
+.hero-bg {
+    background-image: 
+        linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 60%, rgba(0,0,0,0.8) 100%),
+        url("https://assets.nflxext.com/ffe/siteui/vlv3/63dc43da-5c69-4d90-94bd-c149be41984d/5bc8f131-eb75-4fb1-90a6-2a6a8cfd8bc2/NG-en-20240107-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Extra overlay for darker effect */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.55);
+}
+
+/* HERO CONTENT */
+.hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 900px;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.1;
+}
+
+.price-text {
+    margin-top: 20px;
+    font-size: 1.1rem;
+}
+
+.sub-text {
+    margin-top: 10px;
+    font-size: 1.1rem;
+}
+
+.form-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.form-box input {
+    width: 350px;
+    height: 55px;
+    padding: 12px;
+    border: 1px solid rgba(255,255,255,0.4);
+    background-color: rgba(20, 20, 20, 0.6);
+    border-radius: 4px;
+    color: white;
+    font-size: 1rem;
+}
+
+.get-started-btn {
+    background: #e50914;
+    color: #fff;
+    border: none;
+    padding: 15px 25px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+/* .get-started-btn:hover {
+    background: #f40612;
+} */
